@@ -7,7 +7,7 @@
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.SWEN344__Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2C0A93B8-C86E-41A4-875B-B9DB3E39DF18" />
+  <MonoDevelop.Ide.ItemProperties.SWEN344__Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.11F95D61-F218-4836-8012-AE9A1FE94A70" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/iOS/IndexViewController.cs" relfile="iOS/IndexViewController.cs" line="13" column="7" />
