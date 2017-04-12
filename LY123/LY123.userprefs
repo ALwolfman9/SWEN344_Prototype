@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{8D78F7AB-71DA-4386-A001-94348934FA3C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="LY123 Status">
     <Files>
-      <File FileName="iOS/IndexViewController.cs" Line="15" Column="4" />
+      <File FileName="iOS/IndexViewController.cs" Line="16" Column="6" />
       <File FileName="iOS/LY123_Storyboard.storyboard" />
       <File FileName="LY123 Status" />
     </Files>
@@ -9,7 +9,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.SWEN344__Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2C0A93B8-C86E-41A4-875B-B9DB3E39DF18" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/iOS/IndexViewController.cs" relfile="iOS/IndexViewController.cs" line="13" column="7" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

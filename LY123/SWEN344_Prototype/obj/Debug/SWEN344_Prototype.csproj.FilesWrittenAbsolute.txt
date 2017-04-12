@@ -8,3 +8,13 @@
 /Users/austinwolf/Projects/LY123/SWEN344_Prototype/bin/Debug/SWEN344_Prototype.dll
 /Users/austinwolf/Projects/LY123/SWEN344_Prototype/obj/Debug/SWEN344_Prototype.dll
 /Users/austinwolf/Projects/LY123/SWEN344_Prototype/obj/Debug/SWEN344_Prototype.dll.mdb
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/obj/Debug/SWEN344_Prototype.View.SWEN344_PrototypePage.xaml
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/obj/Debug/SWEN344_Prototype.View.SWEN344_PrototypePage.xaml.g.cs
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/bin/Debug/SWEN344_Prototype.dll.mdb
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/bin/Debug/SWEN344_Prototype.dll
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/obj/Debug/SWEN344_Prototype.dll
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/obj/Debug/SWEN344_Prototype.dll.mdb
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/bin/Debug/Xamarin.Forms.Core.dll
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/SWEN344_Prototype/bin/Debug/Xamarin.Forms.Xaml.dll
