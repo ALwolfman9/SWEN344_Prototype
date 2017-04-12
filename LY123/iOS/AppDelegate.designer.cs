@@ -9,11 +9,8 @@ using System.CodeDom.Compiler;
 
 namespace SWEN344_Prototype.iOS
 {
-	[Register ("IndexViewController")]
-	partial class IndexViewController
+	partial class AppDelegate
 	{
-		[Action ("Clicked:")]
-		partial void Clicked (UIKit.UIButton sender);
 		
 		void ReleaseDesignerOutlets ()
 		{
