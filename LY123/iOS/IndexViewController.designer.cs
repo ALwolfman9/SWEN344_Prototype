@@ -14,12 +14,20 @@ namespace SWEN344_Prototype.iOS
     [Register ("IndexViewController")]
     partial class IndexViewController
     {
-        [Action ("Clicked:")]
+        [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void Clicked (UIKit.UIButton sender);
+        UIKit.UIButton hello { get; set; }
+
+        [Action ("Hello_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void Hello_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
+            if (hello != null) {
+                hello.Dispose ();
+                hello = null;
+            }
         }
     }
 }

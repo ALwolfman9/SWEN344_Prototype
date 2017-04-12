@@ -10,10 +10,10 @@ namespace SWEN344_Prototype.iOS
 		{
 		}
 
-		partial void Clicked(UIButton sender)
-		{
-			throw new NotImplementedException();
-		}
+		//partial void Clicked(UIButton sender)
+		//{
+		//	throw new NotImplementedException();
+		//}
 
 		public override void ViewDidLoad()
 		{
