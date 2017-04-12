@@ -8,7 +8,7 @@ namespace SWEN344_Prototype
 		public App()
 		{
 
-			MainPage = new SWEN344_PrototypePage();
+			//MainPage = new SWEN344_PrototypePage();
 		}
 
 		protected override void OnStart()
