@@ -71,8 +71,8 @@
       <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/ibtool/LY123_Storyboard.storyboardc/LoginViewController.nib">
-      <LogicalName>LY123_Storyboard.storyboardc/LoginViewController.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/ibtool/LY123_Storyboard.storyboardc/Login.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/Login.nib</LogicalName>
       <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>

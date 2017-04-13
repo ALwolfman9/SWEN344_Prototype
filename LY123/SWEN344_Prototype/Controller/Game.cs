@@ -162,8 +162,8 @@ namespace SWEN344_Prototype
 
 		//subtracts life. checks if lives are out.
 		private bool loseLife(){
-			lives = lives - 1;
-			if(lives < 1){
+			lives -= 1;
+			if(lives <= 0){
 				return true;
 			}
 			return false;

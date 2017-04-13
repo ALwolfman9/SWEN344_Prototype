@@ -3,8 +3,10 @@
     <Files>
       <File FileName="iOS/LY123_Storyboard.storyboard" />
       <File FileName="iOS/IncorrectViewController.cs" Line="21" Column="43" />
-      <File FileName="SWEN344_Prototype/Controller/Game.cs" Line="47" Column="34" />
+      <File FileName="SWEN344_Prototype/Controller/Game.cs" Line="166" Column="17" />
       <File FileName="SWEN344_Prototype/StubQuestions.cs" Line="1" Column="1" />
+      <File FileName="iOS/IndexViewController.cs" Line="36" Column="3" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="LY123 Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
