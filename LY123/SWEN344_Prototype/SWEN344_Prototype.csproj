@@ -40,12 +40,12 @@
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\Teacher.cs" />
     <Compile Include="Model\User.cs" />
-    <Compile Include="App.cs" />
     <Compile Include="Controller\Game.cs" />
     <Compile Include="View\SWEN344_PrototypePage.xaml.cs">
       <DependentUpon>SWEN344_PrototypePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LoginPage.cs" />
+    <Compile Include="StubQuestions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -15,7 +15,7 @@
 	--sdk \
 	10.3 \
 	--targetver \
-	8.0 \
+	10.3 \
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \

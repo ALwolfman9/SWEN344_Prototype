@@ -15,7 +15,7 @@ namespace SWEN344_Prototype
 
 		public int score { get; set; }
 
-		private Level currentLevel;
+		public Level currentLevel { get; set;}
 
 		public int questionNum { get; set; }
 
@@ -32,15 +32,32 @@ namespace SWEN344_Prototype
 			this.questions = questions;
 			this.subject = subject;
 			this.grade = grade;
-			currentLevel = new Level();
 			questionNum = 0;
+			gameQuestions = questions;
+			rewards = new List<Reward>();
+			score = 0;
+			//questionSort();
+			Level start = new Level();
+			start.lvlnum = 1;
+			List<Question> lvlquestions = new List<Question>();
+			for (int i = questionNum; i < questionNum + 10; ){
+				lvlquestions.Add(gameQuestions[i]);
+				i++;
+				if (i == gameQuestions.Count) break;
+			}
+
+			start.questions = lvlquestions;
+			Reward r = new Reward();
+			r.name = "Extra Life";
+			start.reward = r;
+			currentLevel = start;
 			lives = 3;
 			gameOver = false;
-			questionSort();
+
 		}
 
 		private void questionSort(){
-			gameQuestions = (questions);
+			gameQuestions = sort(questions);
 		}
 		private List<Question> sort(List<Question> list){
 			if(list.Count > 2)return list;
@@ -104,6 +121,10 @@ namespace SWEN344_Prototype
 		//!!!!!!! need to make rewards randomly generated
 		private Level newLevel()
 		{
+			if(questionNum >= gameQuestions.Count){
+				return null;
+			}
+
 			int newNum = currentLevel.lvlnum + 1;
 
 			Level l = new Level();
@@ -113,15 +134,21 @@ namespace SWEN344_Prototype
 			//stubbed reward
 			l.reward.name = "A High Five!";
 
-			for (int i = 0; i < 10; i++){
-				l.questions.Add(gameQuestions[i]);
+			for (int i = questionNum; i < questionNum + 10; ){
+				if (gameQuestions[i].complete == false) l.questions.Add(gameQuestions[i]);
+				i++;
+				if (i == gameQuestions.Count) break;
+			}
+
+			if(l.questions.Count < 1){
+				gameOver = true;
 			}
 
 			return l;
 		}
 
 		//checks if the level is over, creates a new level if yes
-		public void endLevel(){
+		public bool endLevel(){
 			if(questionNum % 10 == 0){
 				rewards.Add(currentLevel.reward);
 				//add reward text
@@ -130,22 +157,35 @@ namespace SWEN344_Prototype
 					rewards.RemoveAt(rewards.Count - 1);
 				}
 				currentLevel = newLevel();
+				if(currentLevel == null){
+					gameOver = true;
+				}
+				return true;
 			}
+			return false;
 		}
 
 		//returns the next question
 		public Question getNextQuestion(){
-			return currentLevel.questions[questionNum % 10];
+			return currentLevel.questions[questionNum % currentLevel.questions.Count];
 		}
 
 		//checks if correct answer
 		public bool correct(Answer answer){
+			if(gameOver == true){
+				return false;
+			}
 			if(answer.correct){
 				score += answer.points;
 				questionNum += 1;
 				return true;
 			}
+
 			gameOver = loseLife();
+
+			if(questionNum >= gameQuestions.Count){
+				gameOver = true;
+			}
 			return false;
 		}
 

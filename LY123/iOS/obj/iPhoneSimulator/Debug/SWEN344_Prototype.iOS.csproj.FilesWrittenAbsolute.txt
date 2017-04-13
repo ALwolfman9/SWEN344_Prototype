@@ -28,3 +28,11 @@
 /Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/iOS/bin/iPhoneSimulator/Debug/SWEN344_Prototype.dll.mdb
 /Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/iOS/bin/iPhoneSimulator/Debug/SWEN344_Prototype.iOS.exe.mdb
 /Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/iOS/bin/iPhoneSimulator/Debug/SWEN344_Prototype.iOS.exe
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.8-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.8-10.3/actool/_PartialAppManifest.items
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.8-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.8-10.3/optimized/

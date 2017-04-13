@@ -1,19 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib">
-      <LogicalName>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</LogicalName>
-      <InterfaceDefinition>LaunchScreen.storyboard</InterfaceDefinition>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/1010-view-1011.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/1010-view-1011.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LaunchScreen.storyboardc/Info.plist">
-      <LogicalName>LaunchScreen.storyboardc/Info.plist</LogicalName>
-      <InterfaceDefinition>LaunchScreen.storyboard</InterfaceDefinition>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/1023-view-1024.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/1023-view-1024.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib">
-      <LogicalName>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</LogicalName>
-      <InterfaceDefinition>LaunchScreen.storyboard</InterfaceDefinition>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/1030-view-1031.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/1030-view-1031.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/1037-view-1038.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/1037-view-1038.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/1044-view-1045.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/1044-view-1045.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/925-view-926.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/925-view-926.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/993-view-994.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/993-view-994.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/Correct.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/Correct.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/Game.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/Game.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/GameOver.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/GameOver.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/Incorrect.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/Incorrect.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/Index.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/Index.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/Info.plist">
+      <LogicalName>LY123_Storyboard.storyboardc/Info.plist</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/LevelUp.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/LevelUp.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/LoginViewController.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/LoginViewController.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/ibtool/LY123_Storyboard.storyboardc/UINavigationController-473.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/UINavigationController-473.nib</LogicalName>
+      <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
   </ItemGroup>

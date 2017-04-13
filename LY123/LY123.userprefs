@@ -2,15 +2,20 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="LY123 Status">
     <Files>
       <File FileName="iOS/LY123_Storyboard.storyboard" />
+      <File FileName="iOS/LevelUpViewController.cs" Line="19" Column="60" />
+      <File FileName="SWEN344_Prototype/Controller/Game.cs" Line="38" Column="14" />
+      <File FileName="iOS/CorrectViewController.cs" Line="29" Column="21" />
+      <File FileName="iOS/IncorrectViewController.cs" Line="26" Column="21" />
+      <File FileName="iOS/GameOverViewController.cs" Line="19" Column="1" />
+      <File FileName="SWEN344_Prototype/StubQuestions.cs" Line="78" Column="12" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="LY123 Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.SWEN344__Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7DC91CDD-301E-4A18-A432-F4C6D4EDA9F4" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.SWEN344__Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.b4cbd7ffe7621d2f825a7c444d1779b6137a54b2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/minhduong/school_work/SWEN444/ALwolfman9/SWEN344_Prototype/LY123/iOS/IndexViewController.cs" relfile="iOS/IndexViewController.cs" line="13" column="7" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

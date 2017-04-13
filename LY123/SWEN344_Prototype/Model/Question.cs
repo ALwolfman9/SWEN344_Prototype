@@ -15,8 +15,6 @@ namespace SWEN344_Prototype
 
 		public bool complete { get; set; }
 
-		public bool active { get; set; }
-
 		public string subject { get; set; }
 
 		public int grade { get; set; }
