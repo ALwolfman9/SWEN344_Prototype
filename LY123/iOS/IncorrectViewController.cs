@@ -18,6 +18,8 @@ namespace SWEN344_Prototype.iOS
 		{
             this.NavigationController.ToolbarHidden = true;
 
+			lifeLabel.Text = "Lives: " + game.lives;
+
 			next.TouchUpInside += (object sender, EventArgs e) =>
 			{
 				if (game.ifOver())

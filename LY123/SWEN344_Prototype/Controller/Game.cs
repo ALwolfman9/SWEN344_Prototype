@@ -5,7 +5,7 @@ namespace SWEN344_Prototype
 {
 	public class Game
 	{
-		private List<Question> questions;
+		//private List<Question> questions;
 
 		public List<Question> gameQuestions { get; set; }
 
@@ -29,7 +29,7 @@ namespace SWEN344_Prototype
 
 		public Game(string subject, int grade, List<Question> questions)
 		{
-			this.questions = questions;
+			//this.questions = questions;
 			this.subject = subject;
 			this.grade = grade;
 			questionNum = 0;
@@ -40,10 +40,18 @@ namespace SWEN344_Prototype
 			Level start = new Level();
 			start.lvlnum = 1;
 			List<Question> lvlquestions = new List<Question>();
-			for (int i = questionNum; i < questionNum + 10; ){
-				lvlquestions.Add(gameQuestions[i]);
+
+
+			int i = 0;
+			int c = 0;
+			while (i < gameQuestions.Count && c < 10)
+			{
+				if (gameQuestions[i].complete == false)
+				{
+					lvlquestions.Add(gameQuestions[i]);
+					c++;
+				}
 				i++;
-				if (i == gameQuestions.Count) break;
 			}
 
 			start.questions = lvlquestions;
@@ -56,65 +64,7 @@ namespace SWEN344_Prototype
 
 		}
 
-		private void questionSort(){
-			gameQuestions = sort(questions);
-		}
-		private List<Question> sort(List<Question> list){
-			if(list.Count > 2)return list;
-			int tophalf = list.Count / 2;
-			int bottomhalf = list.Count / 2 + 1;
 
-			List<Question> a; 
-			List<Question> b;
-
-			if (list.Count % 2 == 0)
-			{
-				a = sort(list.GetRange(0, tophalf));
-				b = sort(list.GetRange(bottomhalf, tophalf));
-			}
-			else{
-				a = sort(list.GetRange(0, tophalf));
-				b = sort(list.GetRange(tophalf, bottomhalf));
-			}
-
-			List<Question> c = new List<Question>();
-			int i = 0;
-			int j = 0;
-
-			while(i < a.Count && j < b.Count){
-				Question q = new Question();
-				if(a[i].level <= b[j].level && i < a.Count){
-					q = a[i];
-					if(q.grade.Equals(grade) && q.subject.Equals(subject)){
-						c.Add(q);
-					}
-					i++;
-				}
-				else if(a[i].level > b[j].level && j < b.Count){
-					q = b[j];
-					if(q.grade.Equals(grade) && q.subject.Equals(subject)){
-						c.Add(q);
-					}
-					j++;
-				}
-				else if(j >= b.Count){
-					q = a[i];
-					if(q.grade.Equals(grade) && q.subject.Equals(subject)){
-						c.Add(q);
-					}
-					i++;
-				}
-				else{
-					q = b[j];
-					if(q.grade.Equals(grade) && q.subject.Equals(subject)){
-						c.Add(q);
-					}
-					j++;
-				}
-			}
-
-			return c;
-		}
 
 		//creates a new level
 
@@ -134,10 +84,15 @@ namespace SWEN344_Prototype
 			//stubbed reward
 			l.reward.name = "A High Five!";
 
-			for (int i = questionNum; i < questionNum + 10; ){
-				if (gameQuestions[i].complete == false) l.questions.Add(gameQuestions[i]);
+			int i = 0;
+			int c = 0;
+			while(i < gameQuestions.Count && c < 10){
+				if (gameQuestions[i].complete == false)
+				{
+					l.questions.Add(gameQuestions[i]);
+					c++;
+				}
 				i++;
-				if (i == gameQuestions.Count) break;
 			}
 
 			if(l.questions.Count < 1){
@@ -149,7 +104,7 @@ namespace SWEN344_Prototype
 
 		//checks if the level is over, creates a new level if yes
 		public bool endLevel(){
-			if(questionNum % 10 == 0){
+			if(questionNum % currentLevel.questions.Count == 0){
 				rewards.Add(currentLevel.reward);
 				//add reward text
 				if(currentLevel.reward.name.Equals("Extra Life")){
@@ -175,18 +130,30 @@ namespace SWEN344_Prototype
 			if(gameOver == true){
 				return false;
 			}
-			if(answer.correct){
+			if (answer.correct)
+			{
 				score += answer.points;
+				gameQuestions[questionNum].complete = true;
 				questionNum += 1;
+				if (questionNum >= gameQuestions.Count)
+				{
+					gameOver = true;
+				}
 				return true;
 			}
+			else
+			{
+				gameQuestions[questionNum].complete = true;
+				questionNum += 1;
 
-			gameOver = loseLife();
+				gameOver = loseLife();
 
-			if(questionNum >= gameQuestions.Count){
-				gameOver = true;
+				if (questionNum >= gameQuestions.Count)
+				{
+					gameOver = true;
+				}
+				return false;
 			}
-			return false;
 		}
 
 		public bool ifOver(){
@@ -194,7 +161,7 @@ namespace SWEN344_Prototype
 		}
 
 		//subtracts life. checks if lives are out.
-		public bool loseLife(){
+		private bool loseLife(){
 			lives = lives - 1;
 			if(lives < 1){
 				return true;
