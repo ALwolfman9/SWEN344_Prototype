@@ -1,6 +1,7 @@
 ﻿using Foundation;
 using System;
 using UIKit;
+using AudioToolbox;
 
 namespace SWEN344_Prototype.iOS
 {
@@ -13,6 +14,9 @@ namespace SWEN344_Prototype.iOS
 
 		public Level level { get; set; }
 
+		//NSUrl url;
+		//SystemSound systemSound;
+
 		public CorrectViewController(IntPtr handle) : base(handle)
 		{
 		}
@@ -21,6 +25,10 @@ namespace SWEN344_Prototype.iOS
             this.NavigationController.ToolbarHidden = true;
 
 			pointsLabel.Text = "+" + answer.points + " points!";
+
+			//url = NSUrl.FromFilename ("Resources/Correct-answer.mp3");
+			//systemSound = new SystemSound(url);
+			//systemSound.PlayAlertSound();
 
 			next.TouchUpInside += (object sender, EventArgs e) =>
 			{

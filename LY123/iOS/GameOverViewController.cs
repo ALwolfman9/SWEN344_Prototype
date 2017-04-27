@@ -17,7 +17,7 @@ namespace SWEN344_Prototype.iOS
             this.NavigationController.ToolbarHidden = true;
 
 			scoreLabel.Text = "Total Score: " + game.score;
-			rewardscount.Text = "Rewards Gained: " + game.rewards.Count;
+			rewardsCount.Text = "Rewards Gained: " + game.rewards.Count;
 
 			quit.TouchUpInside += (object sender, EventArgs e) =>
 			{

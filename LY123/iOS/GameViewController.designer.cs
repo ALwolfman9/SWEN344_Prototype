@@ -32,7 +32,19 @@ namespace SWEN344_Prototype.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel levelField { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel livesView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel question { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel scoreLabel { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
@@ -56,9 +68,24 @@ namespace SWEN344_Prototype.iOS
                 answer4 = null;
             }
 
+            if (levelField != null) {
+                levelField.Dispose ();
+                levelField = null;
+            }
+
+            if (livesView != null) {
+                livesView.Dispose ();
+                livesView = null;
+            }
+
             if (question != null) {
                 question.Dispose ();
                 question = null;
+            }
+
+            if (scoreLabel != null) {
+                scoreLabel.Dispose ();
+                scoreLabel = null;
             }
         }
     }

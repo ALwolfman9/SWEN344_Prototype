@@ -17,7 +17,10 @@ namespace SWEN344_Prototype.iOS
 		public override void ViewDidLoad()
 		{
             this.NavigationController.ToolbarHidden = true;
-
+			scoreLabel.Text = "Score: " + game.score;
+			livesView.Text = "Lives: " + game.lives;
+			levelField.Text = "Level: " + game.currentLevel.lvlnum;
+				
 			Question current = game.getNextQuestion();
 			Level cl = game.currentLevel;
 			question.Text = game.getNextQuestion().name;

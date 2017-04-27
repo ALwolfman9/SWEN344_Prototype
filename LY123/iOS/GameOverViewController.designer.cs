@@ -16,11 +16,15 @@ namespace SWEN344_Prototype.iOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel gover { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton quit { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel rewardscount { get; set; }
+        UIKit.UILabel rewardsCount { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -28,14 +32,19 @@ namespace SWEN344_Prototype.iOS
 
         void ReleaseDesignerOutlets ()
         {
+            if (gover != null) {
+                gover.Dispose ();
+                gover = null;
+            }
+
             if (quit != null) {
                 quit.Dispose ();
                 quit = null;
             }
 
-            if (rewardscount != null) {
-                rewardscount.Dispose ();
-                rewardscount = null;
+            if (rewardsCount != null) {
+                rewardsCount.Dispose ();
+                rewardsCount = null;
             }
 
             if (scoreLabel != null) {

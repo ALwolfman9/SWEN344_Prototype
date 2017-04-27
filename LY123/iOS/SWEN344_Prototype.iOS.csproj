@@ -107,11 +107,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Sounds\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
     <None Include="packages.config" />
+    <None Include="Resources\Correct-answer.mp3" />
+    <None Include="Resources\Wrong-answer-sound-effect.mp3" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />

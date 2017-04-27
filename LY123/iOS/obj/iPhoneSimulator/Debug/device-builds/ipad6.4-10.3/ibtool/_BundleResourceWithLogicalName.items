@@ -21,8 +21,8 @@
       <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/ibtool/LY123_Storyboard.storyboardc/1044-view-1045.nib">
-      <LogicalName>LY123_Storyboard.storyboardc/1044-view-1045.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/ibtool/LY123_Storyboard.storyboardc/1280-view-1281.nib">
+      <LogicalName>LY123_Storyboard.storyboardc/1280-view-1281.nib</LogicalName>
       <InterfaceDefinition>LY123_Storyboard.storyboard</InterfaceDefinition>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>

@@ -17,3 +17,7 @@
 /Users/austinwolf/Projects/LY123/iOS/obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/actool/_PartialAppManifest.items
 /Users/austinwolf/Projects/LY123/iOS/obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/actool/_BundleResourceWithLogicalName.items
 /Users/austinwolf/Projects/LY123/iOS/obj/iPhone/Debug/device-builds/iphone8.1-10.2.1/optimized/
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhone/Debug/device-builds/ipad4.5-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhone/Debug/device-builds/ipad4.5-10.3.1/actool/_PartialAppManifest.items
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhone/Debug/device-builds/ipad4.5-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/austinwolf/Projects/LY123/iOS/obj/iPhone/Debug/device-builds/ipad4.5-10.3.1/optimized/

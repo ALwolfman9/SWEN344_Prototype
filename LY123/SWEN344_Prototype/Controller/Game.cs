@@ -80,7 +80,7 @@ namespace SWEN344_Prototype
 			Level l = new Level();
 			l.lvlnum = newNum;
 			l.reward = new Reward();
-
+			l.questions = new List<Question>();
 			//stubbed reward
 			l.reward.name = "A High Five!";
 
@@ -109,7 +109,7 @@ namespace SWEN344_Prototype
 				//add reward text
 				if(currentLevel.reward.name.Equals("Extra Life")){
 					lives += 1;
-					rewards.RemoveAt(rewards.Count - 1);
+					//rewards.RemoveAt(rewards.Count - 1);
 				}
 				currentLevel = newLevel();
 				if(currentLevel == null){

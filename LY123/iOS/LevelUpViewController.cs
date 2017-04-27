@@ -17,11 +17,8 @@ namespace SWEN344_Prototype.iOS
 		public override void ViewDidLoad()
 		{
             this.NavigationController.ToolbarHidden = true;
-
 			level_up_text.Text = "Level " + level.lvlnum + " complete!";
-
 			rewardLabel.Text = "Reward: " + level.reward.name;
-
 			next.TouchUpInside += (object sender, EventArgs e) =>
 			{
 				if (game.ifOver())
