@@ -32,6 +32,10 @@ namespace SWEN344_Prototype.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView imageView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel levelField { get; set; }
 
         [Outlet]
@@ -66,6 +70,11 @@ namespace SWEN344_Prototype.iOS
             if (answer4 != null) {
                 answer4.Dispose ();
                 answer4 = null;
+            }
+
+            if (imageView != null) {
+                imageView.Dispose ();
+                imageView = null;
             }
 
             if (levelField != null) {

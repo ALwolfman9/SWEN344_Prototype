@@ -20,8 +20,10 @@ namespace SWEN344_Prototype.iOS
 			scoreLabel.Text = "Score: " + game.score;
 			livesView.Text = "Lives: " + game.lives;
 			levelField.Text = "Level: " + game.currentLevel.lvlnum;
-				
+
 			Question current = game.getNextQuestion();
+			imageView.Image = UIImage.FromBundle(current.imageString);
+
 			Level cl = game.currentLevel;
 			question.Text = game.getNextQuestion().name;
 			answer1.SetTitle(game.getNextQuestion().answers[0].name, UIControlState.Normal);

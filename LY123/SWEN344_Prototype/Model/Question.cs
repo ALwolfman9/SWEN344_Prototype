@@ -23,5 +23,7 @@ namespace SWEN344_Prototype
 		public int level { get; set; }
 
 		public Classroom classroom { get; set; }
+
+		public string imageString { get; set; }
 	}
 }

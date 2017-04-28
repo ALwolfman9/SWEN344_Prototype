@@ -104,10 +104,40 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\2_bananas.imageset\2_bananas.png" />
+    <ImageAsset Include="Assets.xcassets\2_bananas.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\3_bananas.imageset\3_bananas.jpeg" />
+    <ImageAsset Include="Assets.xcassets\3_bananas.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\4_bananas.imageset\4_bananas.png" />
+    <ImageAsset Include="Assets.xcassets\4_bananas.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\thinking_1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\thinking_1.imageset\thinking_1.jpeg" />
+    <ImageAsset Include="Assets.xcassets\thinking_2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\thinking_2.imageset\thinking_2.jpeg" />
+    <ImageAsset Include="Assets.xcassets\thinking_3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\thinking_3.imageset\thinking_4.png" />
+    <ImageAsset Include="Assets.xcassets\thinking_4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\thinking_4.imageset\thinking_4.png" />
+    <ImageAsset Include="Assets.xcassets\1_green_apple.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\1_green_apple.imageset\1_green_apple.jpg" />
+    <ImageAsset Include="Assets.xcassets\2_green_apples.imageset\14923044-Set-of-vector-apples-Stock-Vector-apple-clipart.jpg" />
+    <ImageAsset Include="Assets.xcassets\2_green_apples.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\fruit_basket.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\fruit_basket.imageset\fruit_basket.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Sounds\" />
+    <Folder Include="Assets.xcassets\2_bananas.imageset\" />
+    <Folder Include="Assets.xcassets\3_bananas.imageset\" />
+    <Folder Include="Assets.xcassets\4_bananas.imageset\" />
+    <Folder Include="Assets.xcassets\thinking_1.imageset\" />
+    <Folder Include="Assets.xcassets\thinking_2.imageset\" />
+    <Folder Include="Assets.xcassets\thinking_3.imageset\" />
+    <Folder Include="Assets.xcassets\thinking_4.imageset\" />
+    <Folder Include="Assets.xcassets\1_green_apple.imageset\" />
+    <Folder Include="Assets.xcassets\2_green_apples.imageset\" />
+    <Folder Include="Assets.xcassets\fruit_basket.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
