@@ -1,17 +1,12 @@
 ﻿<Properties StartupConfiguration="{8D78F7AB-71DA-4386-A001-94348934FA3C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="LY123 Status">
     <Files>
-      <File FileName="SWEN344_Prototype/StubQuestions.cs" Line="127" Column="37" />
-      <File FileName="SWEN344_Prototype/Controller/Game.cs" Line="112" Column="8" />
       <File FileName="iOS/LY123_Storyboard.storyboard" />
-      <File FileName="iOS/GameViewController.cs" Line="22" Column="59" />
-      <File FileName="iOS/LevelUpViewController.cs" Line="21" Column="54" />
-      <File FileName="iOS/CorrectViewController.cs" Line="44" Column="23" />
       <File FileName="LY123 Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.SWEN344__Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.11F95D61-F218-4836-8012-AE9A1FE94A70" />
+  <MonoDevelop.Ide.ItemProperties.SWEN344__Prototype.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.97B91C76-57EB-4508-866F-EE08065881D7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
