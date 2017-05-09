@@ -11,7 +11,7 @@
 namespace SWEN344_Prototype {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/austinwolf/Projects/LY123/SWEN344_Prototype/View/SWEN344_PrototypePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/austinwolf/Projects/ALwolfman9/SWEN344_Prototype.git/LY123/SWEN344_Prototype/View/SWEN344_PrototypePage.xaml")]
     public partial class SWEN344_PrototypePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

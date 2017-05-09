@@ -6,8 +6,8 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/actool/bundle/Assets.car</string>
-			<string>/Users/austinwolf/Projects/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/actool/partial-info.plist</string>
+			<string>/Users/austinwolf/Projects/ALwolfman9/SWEN344_Prototype.git/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/actool/bundle/Assets.car</string>
+			<string>/Users/austinwolf/Projects/ALwolfman9/SWEN344_Prototype.git/LY123/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/actool/partial-info.plist</string>
 		</array>
 	</dict>
 </dict>
